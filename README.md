@@ -11,7 +11,7 @@ A Symfony2 bundle that provides a Postmark transport implementation for SwiftMai
         "symfony/symfony": "~2.1",
         "_comment": "your other packages",
     
-        "accord/postmark-swiftmailer-bundle": "~1.0",
+        "accord/postmark-swiftmailer-bundle": "dev-master",
     }
 
 ### Add AccordPostmarkSwiftMailerBundle to application kernel
