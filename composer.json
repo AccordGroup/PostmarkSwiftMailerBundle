@@ -1,0 +1,29 @@
+{
+    "name": "accord/postmark-swiftmailer-bundle",
+    "description": "A Symfony2 bundle that provides a Postmark transport implementation for SwiftMailer",
+    "keywords": ["postmark", "swiftmailer", "symfony", "bundle"],
+    "homepage": "https://github.com/AccordGroup/PostmarkSwiftMailerBundle",
+    "type": "symfony-bundle",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "James Willans",
+            "email": "james.willans@accordgroup.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.3",
+        "openbuildings/postmark": "0.3.1",
+        "swiftmailer/swiftmailer": "5.2.1"
+    },
+    "autoload": {
+        "psr-0": { "Accord\\PostmarkSwiftMailerBundle": "" }
+    },
+    "target-dir": "Accord/PostmarkSwiftMailerBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
