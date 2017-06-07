@@ -5,6 +5,6 @@ services:
     accord.swift_transport.postmark:
         class: Openbuildings\Postmark\Swift_Transport_PostmarkTransport
         arguments:
-            - @swiftmailer.transport.eventdispatcher.accord_postmark
+            - "@swiftmailer.transport.eventdispatcher.accord_postmark"
         calls:
-            - ['setApi', [@accord.swift_transport.postmark.api]]
+            - ['setApi', ["@accord.swift_transport.postmark.api"]]

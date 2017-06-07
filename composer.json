@@ -14,8 +14,8 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.3",
-        "openbuildings/postmark": "0.3.1",
-        "swiftmailer/swiftmailer": "5.2.1"
+        "openbuildings/postmark": ">=0.3.1",
+        "swiftmailer/swiftmailer": ">=5.2.1,<6.0.0"
     },
     "autoload": {
         "psr-0": { "Accord\\PostmarkSwiftMailerBundle": "" }
